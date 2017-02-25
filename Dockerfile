@@ -1,6 +1,6 @@
 # The FROM instruction sets the Base Image for subsequent instructions.
 # Using Nginx as Base Image
-FROM node:0.7.9
+FROM daocloud.io/node:0.10-onbuild
 MAINTAINER guansixu <guansixu@gmail.com>
 
 # The RUN instruction will execute any commands
